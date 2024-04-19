@@ -21,12 +21,12 @@ h1 {
 h1,
 h2 {
   font-family: var(--heading-font-family);
-  font-size: 900;
+  font-size: 800;
   font-weight: bold;
 }
 
 p {
-  font-size: 700;
+  font-size: 800;
   font-weight: normal;
 }
 
@@ -38,4 +38,16 @@ p {
 .btn-primary:hover {
   background-color: #f10550;
   border-color: #f10550;
+}
+
+@media (max-width: 960px) {
+  body {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .text-description {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.4em;
+  }
 }
