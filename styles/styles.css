@@ -1,5 +1,6 @@
 :root {
   --main-color: #fa4b83;
+  --primary-color: #f10550;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -29,6 +30,11 @@ h2 {
   font-weight: bold;
 }
 
+h5 {
+  font-family: var(--heading-font-family);
+  color: var(--main-color);
+}
+
 p {
   font-size: 800;
   font-weight: normal;
@@ -40,7 +46,17 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #f10550;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:active {
+  background-color: var(--primary-color);
+  border: var(--primary-color);
+}
+
+.btn-primary:disabled {
+  background-color: var(--primary-color);
   border-color: #f10550;
 }
 
@@ -52,5 +68,10 @@ p {
   .text-description {
     text-align: center;
     line-height: 1.5em;
+  }
+
+  .col-md-12 {
+    display: flex;
+    justify-content: center;
   }
 }
