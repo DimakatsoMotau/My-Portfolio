@@ -40,6 +40,10 @@ p {
   font-weight: normal;
 }
 
+.text-pink {
+  color: var(--main-color) !important;
+}
+
 .btn-primary {
   background-color: var(--main-color);
   border-color: var(--main-color);
