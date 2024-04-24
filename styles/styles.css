@@ -11,14 +11,7 @@ body {
   font-family: var(--default-font-family);
 }
 
-.mt-5 {
-  margin-top: 100px !important;
-}
-
-h1 {
-  color: var(--main-color);
-}
-
+h1,
 .container h2 {
   color: var(--main-color);
 }
@@ -40,13 +33,43 @@ p {
   font-weight: normal;
 }
 
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-brand {
+  color: var(--main-color);
+}
+
+.navbar-brand:hover {
+  color: #df2862;
+}
+
+.navbar .nav-link {
+  color: #ffff;
+}
+
+.navbar .active {
+  color: #885df1 !important;
+}
+
+.navbar-toggler {
+  background-color: #ffff;
+}
+
+/*.mt-5 {
+  margin-top: 100px !important;
+}
+*/
+
 .text-pink {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 .btn-primary {
   background-color: var(--main-color);
   border-color: var(--main-color);
+  transition: all 150ms ease-in-out;
 }
 
 .btn-primary:hover {
@@ -75,7 +98,7 @@ p {
   }
 
   .col-md-12 {
-    display: flex !important;
-    justify-content: center !important;
+    display: flex;
+    justify-content: center;
   }
 }
