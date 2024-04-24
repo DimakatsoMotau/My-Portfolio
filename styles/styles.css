@@ -11,6 +11,11 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav ul li {
+  padding-right: 20px;
+  font-size: 1.1em;
+}
+
 h1,
 .container h2 {
   color: var(--main-color);
@@ -39,6 +44,7 @@ p {
 
 .navbar-brand {
   color: var(--main-color);
+  font-size: 1.5em;
 }
 
 .navbar-brand:hover {
@@ -49,6 +55,11 @@ p {
   color: #ffff;
 }
 
+.navbar-nav a:hover {
+  color: #b52b65;
+  background-clip: text;
+}
+
 .navbar .active {
   color: #885df1 !important;
 }
@@ -57,10 +68,9 @@ p {
   background-color: #ffff;
 }
 
-/*.mt-5 {
+.text-description .mt-5 {
   margin-top: 100px !important;
 }
-*/
 
 .text-pink {
   color: var(--main-color);
