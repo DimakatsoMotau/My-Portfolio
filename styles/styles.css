@@ -109,6 +109,11 @@ p {
   margin-top: 1em;
 }
 
+.contact a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
 .footer-icons a {
   color: var(--main-color);
 }
